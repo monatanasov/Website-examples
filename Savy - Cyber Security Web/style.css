@@ -1,0 +1,52 @@
+body {
+    background-image: linear-gradient(to right, #d5f2f0, #ceecf0, #cae5f0, #c8deee, #c9d6ea, #d3d4e8, #ddd1e4, #e4d0de, #eed6db, #f3deda, #f3e7de, #f3f0e6);
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    margin: 50px auto 0 auto;
+}
+
+.header__navigation-nav__ul {
+    display: flex;
+    width: 509px;
+    justify-content: space-between;
+}
+
+.header__navigation-nav__li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.header__navigation-nav__li-clicked a {
+    color: #1B71FF;
+}
+
+
+
+
+.body__cyber-security {
+    width: 1604px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.body__cyber-security h1 {
+    font-weight: bold;
+    font-size: 72px;
+}
+
+.body__cyber-security p {
+    font-size: 18px;
+    text-align: center;
+}
