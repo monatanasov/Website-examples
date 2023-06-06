@@ -18,6 +18,15 @@ body {
     font-weight: bold;
 }
 
+.secondary-btn {
+    padding: 30px 120px;
+    background-color: #ffffff;
+    color: #1B71FF;
+    border: none;
+    box-shadow: 20px 20px 50px 0px #E1E1E6CC;
+
+}
+
 /* header */
 
 .header {
@@ -217,7 +226,70 @@ body {
 
 /* about us */
 
-.body-section__about-us {
+.body-section__about {
     width: 100%;
     height: 100vh;
+    display: flex;
+    gap: 34.16px;
+}
+
+.body-section__about-wrapper {
+    max-width: 855px;
+    max-height: 531px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 180px;
+    gap: 100px;
+}
+
+.body-section__about-content h1 {
+    margin-bottom: 50px;
+    font-size: 54px;
+    line-height: 64.4px;
+    font-style: bold;
+    text-transform: capitalize;
+}
+
+.body-section__about-content h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.body-section__about-content p {
+    font-style: normal;
+    line-height: 21px;
+    width: 720px;
+    text-align: left;
+    letter-spacing: 2%;
+    font-weight: 400;
+}
+
+.body-section__about-content-link {
+    color: #1B71FF;
+}
+
+.body-section__about-circle {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-color: #F6F6F8;
+    padding: 20px 70px;
+    gap: 10px;
+    position: relative;
+    box-shadow: -40px -40px 80px rgba(255, 255, 255, 0.5), 40px 40px 70px rgba(225, 225, 230, 0.8), inset 0px 0px 50px rgba(217, 217, 217, 0.2);
+    transform: rotate(5deg);
+}
+
+.body-section__about-circle-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 261px;
+    height: 179px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: rotate(5deg);
 }
