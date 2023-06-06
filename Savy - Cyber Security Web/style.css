@@ -1,13 +1,27 @@
 body {
-    background-image: linear-gradient(to right, #d5f2f0, #ceecf0, #cae5f0, #c8deee, #c9d6ea, #d3d4e8, #ddd1e4, #e4d0de, #eed6db, #f3deda, #f3e7de, #f3f0e6);
     font-size: 18px;
+    font-family: 'Raleway', sans-serif;
 }
 
+.primary-btn {
+    background-color: #1B71FF;
+    border: #1B71FF;
+    color: #ffffff;
+    width: 241px;
+    height: 61px;
+    font-weight: bold;
+}
+
+/* header */
+
 .header {
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1600px;
+    position: absolute;
+    left: 0;
+    right: 0;
     margin: 50px auto 0 auto;
 }
 
@@ -28,25 +42,52 @@ body {
 }
 
 
+/* Body */
 
+/* Section Cyber Security */
 
-.body__cyber-security {
-    width: 1604px;
+.body-section__cyber-security {
+    background-image: linear-gradient(to right, #d5f2f0, #ceecf0, #cae5f0, #c8deee, #c9d6ea, #d3d4e8, #ddd1e4, #e4d0de, #eed6db, #f3deda, #f3e7de, #f3f0e6);
     height: 100vh;
+    margin-bottom: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__cyber-security {
+    width: 1604px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
-    margin: 0 auto;
+    margin: 10rem auto 0 auto;
+    position: relative;
+    gap: 50px;
 }
 
-.body__cyber-security h1 {
-    font-weight: bold;
+.section__cyber-security__wrapper {
+    position: relative;
+}
+
+.section__cyber-security__wrapper img {
+    position: absolute;
+    top: -80%;
+    right: 17%;
+}
+
+.section__cyber-security__wrapper h1 {
+    font-weight: 700;
     font-size: 72px;
+    font-style: bold 700;
+    fill: solid;
+    stroke: solid;
+    letter-spacing: 2%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.body__cyber-security p {
+.section__cyber-security p {
     font-size: 18px;
     text-align: center;
+    width: 87%;
 }
