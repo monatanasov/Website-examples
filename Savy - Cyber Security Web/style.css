@@ -156,7 +156,7 @@ body {
     height: 100vh;
     z-index: -10;
     position: relative;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .body-section__providers__bg-right {
