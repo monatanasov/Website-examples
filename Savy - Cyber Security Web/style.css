@@ -420,3 +420,78 @@ body {
     right: 55px;
     z-index: -5;
 }
+
+/* section Pricing */
+
+.body-pricing {
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.body-pricing__title-content {
+    max-width: 1596px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.body-pricing__title-content__headings {
+    max-width: 855px;
+    width: 100%;
+}
+
+.body-pricing__title-content__paragraph {
+    max-width: 700px;
+    width: 100%;
+}
+
+.body-pricing__title-content h3 {
+    font-size: 24px;
+}
+.body-pricing__title-content h1 {
+    font-size: 54px;
+}
+
+.body-pricing__plans {
+    max-width: 1514px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.body-pricing__plans-basic {
+    padding: 66px;
+    background-color: #F6F6F8;
+}
+
+.body-pricing__plans-basic h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.body-pricing__plans-basic h1 {
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.body-pricing__plans-basic h1 span {
+    font-size: 24px;
+    color: #1B71FF;
+}
+
+.body-pricing__plans-basic__options {
+}
+
+.body-pricing__plans-basic__options li {
+    margin-bottom: 20px;
+}
+
+.body-pricing__plans-basic__options img,
+.body-pricing__plans-basic__options p {
+    display: inline-block;
+}
+
