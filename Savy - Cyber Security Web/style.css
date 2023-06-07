@@ -345,3 +345,78 @@ body {
 .body-section__seatseen-content__clr-blue {
     color: #1B71FF;
 }
+
+
+/* section SERVICES */
+
+.body-services {
+    max-width: 1513px;
+    width: 100%;
+    margin-left: 150px;
+    margin-top: 185px;
+}
+
+.body-services h3
+{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.body-services h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 64px;
+    text-transform: capitalize;
+}
+
+.body-services__content-second {
+    position: relative;
+}
+
+.body-services__content-first,
+.body-services__content-second {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.body-services__content-second {
+    margin-left: 215px;
+    margin-top: 75px;
+}
+
+.body-services__content-first-box,
+.body-services__content-second-box {
+    background-color: #F6F6F8;
+    max-width: 643px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -40px -40px 80px rgba(255, 255, 255, 0.8), 40px 40px 50px rgba(225, 225, 230, 0.8), inset 0px 0px 50px rgba(217, 217, 217, 0.2);
+    padding: 50px;
+    overflow: hidden;
+}
+
+.body-services__content-first-box img,
+.body-services__content-first-box p,
+.body-services__content-second-box img,
+.body-services__content-second-box p {
+    margin-bottom: 35px;
+    text-align: center;
+
+}
+.body-services__content-first-box h2 {
+    color: #1B71FF;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.body-services__content-ellipse {
+    position: absolute;
+    top: -259px;
+    right: 55px;
+    z-index: -5;
+}
