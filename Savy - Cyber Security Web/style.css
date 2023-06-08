@@ -641,3 +641,49 @@ body {
     line-height: 21px;
     text-align: center;
 }
+
+/* section Testimonials */
+
+.body-testimonials {
+    max-width: 1598px;
+    width: 100%;
+    max-height: 683px;
+    height: 100%;
+    margin: 200px 233px 200px 148px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.body-testimonials__content {
+    max-width: 855px;
+    width: 100%;
+}
+
+.body-testimonials__content-subtitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.body-testimonials__content-title {
+    font-size: 54px;
+    line-height: 63px;
+    margin-bottom: 50px;
+}
+
+.body-testimonials__content-p1 {
+    margin-bottom: 20px;
+    line-height: 21px;
+    width: 720px;
+}
+
+.body-testimonials__content-p2 {
+    margin-bottom: 50px;
+    line-height: 21px;
+    width: 720px;
+}
+
+.body-testimonials__content-author {
+    font-size: 24px;
+}
