@@ -426,6 +426,7 @@ body {
 .body-pricing {
     margin-top: 200px;
     margin-left: 150px;
+    margin-bottom: 200px;
 }
 
 .body-pricing__title-content {
@@ -461,37 +462,95 @@ body {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.body-pricing__plans-basic {
+.body-pricing__plans-basic,
+.body-pricing__plans-premium {
     padding: 66px;
     background-color: #F6F6F8;
 }
 
-.body-pricing__plans-basic h3 {
+.body-pricing__plans-best {
+    padding: 66px;
+    background-color: #1B71FF;
+}
+
+.body-pricing__plans-basic h3,
+.body-pricing__plans-premium h3 {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-.body-pricing__plans-basic h1 {
+.body-pricing__plans-best h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.body-pricing__plans-basic h1,
+.body-pricing__plans-premium h1 {
     font-size: 54px;
     font-weight: 700;
     margin-bottom: 30px;
 }
 
-.body-pricing__plans-basic h1 span {
+.body-pricing__plans-best h1 {
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.body-pricing__plans-basic h1 span,
+.body-pricing__plans-premium h1 span {
     font-size: 24px;
     color: #1B71FF;
 }
 
-.body-pricing__plans-basic__options {
+.body-pricing__plans-best h1 span {
+    font-size: 24px;
+    color: #ffffff;
 }
 
-.body-pricing__plans-basic__options li {
+.body-pricing__plans-basic__options li,
+.body-pricing__plans-best__options li,
+.body-pricing__plans-premium__options li {
     margin-bottom: 20px;
 }
 
 .body-pricing__plans-basic__options img,
-.body-pricing__plans-basic__options p {
+.body-pricing__plans-best__options img,
+.body-pricing__plans-premium__options img {
+    margin-right: 1rem;
     display: inline-block;
 }
+
+.body-pricing__plans-basic__options p,
+.body-pricing__plans-premium__options p {
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: .4px;
+}
+
+.body-pricing__plans-best__options p {
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: .4px;
+    color: #ffffff;
+}
+
+.body-pricing__plans-basic button,
+.body-pricing__plans-premium button {
+    display: block;
+    margin: 50px auto 0 auto;
+}
+
+.body-pricing__plans-best button {
+    display: block;
+    margin: 50px auto 0 auto;
+    background-color: #ffffff;
+    color: #1B71FF;
+    box-shadow: 0px 10px 20px rgba(225, 225, 230, 0.5), inset 0px 0px 50px rgba(217, 217, 217, 0.2);
+}
+
 
