@@ -1,6 +1,7 @@
 body {
     font-size: 18px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
+    font-style: normal;
 }
 
 .body__hr {
@@ -619,6 +620,7 @@ body {
     top: 0;
     right: 0;
     rotate: 180deg;
+    opacity: .5;
 }
 
 .body-project__content {
@@ -686,4 +688,94 @@ body {
 
 .body-testimonials__content-author {
     font-size: 24px;
+}
+
+/* section NEWS */
+
+.body-news {
+    margin-left: 160px;
+    margin-bottom: 200px;
+}
+
+.body-news__subtitle {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.body-news__title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 54px;
+}
+
+.body-news__cards {
+    max-width: 1672px;
+    max-height: 738px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.body-news__card-left {
+    max-width: 665px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    background: #F7F7F8;
+    box-shadow: -40px -40px 80px rgba(255, 255, 255, 0.8), 40px 40px 50px rgba(225, 225, 230, 0.8), inset 0px 0px 50px rgba(217, 217, 217, 0.2);
+    z-index: 20;
+}
+
+.body-news__card-center {
+    max-width: 665px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 40px;
+    background: #F7F7F8;
+    box-shadow: -40px -40px 80px rgba(255, 255, 255, 0.8), 40px 40px 50px rgba(225, 225, 230, 0.8), inset 0px 0px 50px rgba(217, 217, 217, 0.2);
+}
+
+.body-news__card-right {
+    max-width: 665px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 40px;
+    background: #F7F7F8;
+    box-shadow: -40px -40px 80px rgba(255, 255, 255, 0.8), 40px 40px 50px rgba(225, 225, 230, 0.8), inset 0px 0px 50px rgba(217, 217, 217, 0.2);
+}
+
+.body-news__card-left img,
+.body-news__card-center img,
+.body-news__card-right img {
+    margin-bottom: 50px;
+}
+
+.body-news__card-left h2,
+.body-news__card-center h2,
+.body-news__card-right h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+}
+
+.body-news__card-left p,
+.body-news__card-center p,
+.body-news__card-right p {
+    margin-bottom: 45px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
