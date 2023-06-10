@@ -1,7 +1,17 @@
 body {
     font-size: 18px;
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
 }
 
 .body__hr {
@@ -17,6 +27,11 @@ body {
     width: 241px;
     height: 61px;
     font-weight: bold;
+}
+
+.primary-btn:hover {
+    background-color: #1453B8;
+    border: #1453B8;
 }
 
 .secondary-btn {
@@ -39,6 +54,7 @@ body {
     left: 0;
     right: 0;
     margin: 50px auto 0 auto;
+    z-index: 10;
 }
 
 .header__navigation-nav__ul {
@@ -143,7 +159,7 @@ body {
 .section__cyber-security__wrapper h1 {
     font-weight: 700;
     font-size: 72px;
-    font-style: bold 700;
+    font-style: bolder;
     fill: solid;
     stroke: solid;
     letter-spacing: 2%;
@@ -169,7 +185,7 @@ body {
     overflow: hidden;
 }
 
-.body-section__providers__bg-right {
+/* .body-section__providers__bg-right {
     position: absolute;
     content: "";
     width: 100vh;
@@ -183,7 +199,7 @@ body {
     z-index: -5;
     filter: blur(200px);
     overflow: auto;
-}
+} */
 
 .body-section__providers-wrapper {
     max-width: 1603px;
@@ -223,7 +239,6 @@ body {
     /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
 
 }
-
 
 /* about us */
 
@@ -346,7 +361,6 @@ body {
 .body-section__seatseen-content__clr-blue {
     color: #1B71FF;
 }
-
 
 /* section SERVICES */
 
@@ -530,13 +544,11 @@ body {
 .body-pricing__plans-premium__options p {
     display: inline-block;
     font-size: 18px;
-    letter-spacing: .4px;
 }
 
 .body-pricing__plans-best__options p {
     display: inline-block;
     font-size: 18px;
-    letter-spacing: .4px;
     color: #ffffff;
 }
 
@@ -552,6 +564,11 @@ body {
     background-color: #ffffff;
     color: #1B71FF;
     box-shadow: 0px 10px 20px rgba(225, 225, 230, 0.5), inset 0px 0px 50px rgba(217, 217, 217, 0.2);
+}
+
+.body-pricing__plans-best button:hover {
+    background-color: #ffffff;
+    color: #1B71FF;
 }
 
 
@@ -696,6 +713,13 @@ body {
     margin-left: 160px;
     margin-bottom: 200px;
     height: 909px;
+    position: relative;
+}
+
+.body-news__ellipse {
+    position: absolute;
+    top: -3.5rem;
+    right: 7rem;
 }
 
 .body-news__subtitle {
