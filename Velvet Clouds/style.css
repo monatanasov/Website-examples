@@ -246,10 +246,14 @@ body {
 
     .body-schedule__schedule-wrapper {
         width: 352px;
+        border-top: 1px dashed #ffffff;
+    }
+
+    .body-schedule__schedule-wrapper:last-of-type {
+        border-bottom: 1px dashed #ffffff;
     }
 
     .body-schedule__schedule-wrapper__title {
-        border-top: 1px dashed #ffffff;
         padding: 13px 0px;
         width: 100%;
         font-family: 'DM Sans';
