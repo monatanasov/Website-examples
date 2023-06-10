@@ -283,14 +283,14 @@ body {
         font-size: 15px;
     }
 
-    /* section CONTACTS */
+                                        /* section CONTACTS */
     .body-contacts {
         width: 390px;
-        height: 736px;
-        padding: 2px 17px 0px 17px;
+        /* height: 736px; */
+        padding: 2px 17px 109px 17px;
     }
 
-    .body-contacts__title h2{
+    .body-contacts__title h2 {
         font-family: 'Codystar';
         font-style: normal;
         font-weight: 400;
@@ -298,9 +298,64 @@ body {
         line-height: 62px;
         letter-spacing: -0.01em;
         color: #00FF85;
-
+        margin-bottom: 25px;
     }
 
+    .body-contacts__title p {
+        width: 352px;
+        height: 100px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: -0.01em;
+        color: #FFFFFF;
+        margin-bottom: 35px;
+    }
 
+    .body-contacts__form form {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .body-contacts__form label {
+        color: #ffffff;
+        display: block;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+        color: #FFFFFF;
+        margin-bottom: 6px;
+    }
+
+    .body-contacts__form-input,
+    .body-contacts__form-txtarea {
+        width: 100%;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: -0.01em;
+        color: #646464;
+        opacity: 1;
+        background-color: #303030;
+        border: none;
+        padding: 7.5px 0px 5.5px 9.75px;
+    }
+
+    .body-contacts__form-submit {
+        width: 100%;
+        height: 44px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #343434;
+    }
 
 }
