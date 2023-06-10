@@ -171,8 +171,9 @@ body {
     .body-info {
         width: 352px;
         height: 830.07px;
-        margin: 0 auto;
+        margin: 0 auto 60px auto;
         position: relative;
+
     }
 
     .body-info__title {
@@ -201,5 +202,77 @@ body {
         line-height: 35px;
         letter-spacing: -0.01em;
         color: #FFFFFF;
+        margin-bottom: 35px;
     }
+
+    .body-info__content-2 {
+        width: 350.6px;
+        height: 370px;
+    }
+
+    .body-info__content-2 p {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: -0.01em;
+        color: #FFFFFF;
+    }
+
+    .body-info__content-2 p:first-of-type {
+        margin-bottom: 30px;
+    }
+                                                    /* section SCHEDULE */
+    .body-schedule {
+        width: 352px;
+        height: 996px;
+        margin: 15px 19px 0px 19px;
+    }
+
+    .body-schedule__title {
+        margin-top: 60px;
+        margin-bottom: 15px;
+        width: 302px;
+        height: 62px;
+        font-family: 'Codystar';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 62px;
+        letter-spacing: -0.01em;
+        color: #00FF85;
+    }
+
+    .body-schedule__schedule-wrapper {
+        width: 352px;
+    }
+
+    .body-schedule__schedule-wrapper__title {
+        border-top: 1px dashed #ffffff;
+        padding: 13px 0px;
+        width: 100%;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 29px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .body-schedule__schedule-wrapper__title-date {
+        font-weight: 700;
+    }
+
+    .body-schedule__schedule-wrapper__btn {
+        width: 100%;
+        margin-bottom: 13px;
+        height: 38px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
 }
