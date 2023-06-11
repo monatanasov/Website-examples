@@ -509,14 +509,9 @@ body {
 
     .body-hero__image {
         position: absolute;
-        width: 100%;
-        height: 100%;
         left: 0px;
         top: 0px;
         z-index: -50;
-        background-image: url("./resources/desktop-hero-background.png");
-        background-repeat: no-repeat;
-        object-fit: cover;
     }
 
 
