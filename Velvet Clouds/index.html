@@ -16,7 +16,21 @@
 <body>
                                                     <!-- HEADER -->
     <header class="header">
-        <img src="./resources/ham-menu.png" alt="hemburger-menu-image">
+        <div class="header_wrapper">
+            <nav class="header__nav">
+                <ul class="header__nav-ul" role="list">
+                    <li class="header__nav-li"><a href="#">Info</a></li>
+                    <li class="header__nav-li"><a href="#">Schedule</a></li>
+                    <li class="header__nav-li"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header__social-icons">
+                <img src="./resources/header-instagram.png" alt="instagram-image-icon">
+                <img src="./resources/header-twitter.png" alt="twitter-image-icon">
+                <img src="./resources/header-spotify.png" alt="spotify-image-icon">
+            </div>
+        </div>
+        <img class="header__hamburger-menu" src="./resources/ham-menu.png" alt="hemburger-menu-image">
     </header>
                                                   <!-- BODY -->
     <main class="body">
@@ -24,6 +38,7 @@
         <section class="body-hero">
             <img class="body-hero__image" src="./resources/hero-background.png" alt="hero-image">
             <img class="body-hero__fringes-up" src="./resources/fringes-pattern.png" alt="fringes-pattern-image">
+            <img class="body-hero__fringes-up-desktop" src="./resources/desktop-fringes-pattern.png" alt="desktop-fringes-pattern-image">
             <div class="body-hero__site-label">
                 <p class="body-hero__site-label__p1">Velvet</p>
                 <p class="body-hero__site-label__p2">Clouds</p>
@@ -141,7 +156,7 @@
         <img class="footer__xide-logo" src="./resources/footer-xide-logo.png" alt="xide-logo-image">
         <div class="footer__copyright">
             <p>Velvet Clouds Night Drive UK Tour website.</p>
-            <p>All rights reserved © 2023. Designed by <b>XIDE.</b></p>
+            <p>All rights reserved © 2023. Designed by <span class="footer__copyright-span">XIDE.</span></p>
         </div>
     </footer>
 </body>
