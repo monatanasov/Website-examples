@@ -424,6 +424,10 @@ body {
         z-index: -50;
     }
 
+    .footer__pattern-desktop {
+        display: none;
+    }
+
     .footer__site-label {
         position: relative;
         left: 22.56px;
@@ -456,6 +460,10 @@ body {
         position: absolute;
         left: 283px;
         top: 85.64px;
+    }
+
+    .footer__xide-logo-desktop {
+        display: none;
     }
 
     .footer__copyright {
@@ -918,7 +926,7 @@ body {
         flex-direction: column;
         gap: 25px;
     }
-    
+
     .body-contacts__form label {
         color: #ffffff;
         display: block;
@@ -956,5 +964,99 @@ body {
         line-height: 20px;
         text-transform: uppercase;
         color: #343434;
+    }
+
+                                                /* FOOTER */
+
+    .footer {
+        width: 1400px;
+        position: relative;
+        background-color: black;
+        z-index: -60;
+        height: 362px;
+        margin-top: 120px;
+    }
+
+    .footer__pattern {
+        display: none;
+    }
+
+    .footer__pattern-desktop {
+        position: absolute;
+        top: -30px;
+        left: 120px;
+    }
+
+    .footer__site-label {
+        width: 217.2px;
+        height: 99.6px;
+        position: absolute;
+        left: 52px;
+        top: 112.84px;
+
+    }
+
+    .footer__site-label p {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 37.7493px;
+        line-height: 49px;
+        padding: 10px 24px;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 10.7855px rgba(0, 0, 0, 0.25);
+        border-radius: 13.2px;
+        text-transform: uppercase;
+        gap: 10.79px;
+        font-weight: 500;
+    }
+
+    .footer__site-label__p2 {
+        position: absolute;
+        width: 100%;
+        left: 40px;
+        top: 46px;
+        transform: rotate(-5.13deg);
+    }
+
+    .footer__xide-logo {
+        display: none;
+    }
+
+    .footer__xide-logo-desktop {
+        position: absolute;
+        right: 52px;
+        top: 112.84px;
+    }
+
+    .footer__copyright {
+        position: absolute;
+        bottom: 25px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 746px;
+        height: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__copyright p {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.01em;
+        color: #FFFFFF;
+    };
+
+    .footer__copyright-span {
+        font-weight: 700;
     }
 }
