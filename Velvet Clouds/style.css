@@ -336,6 +336,10 @@ body {
         padding: 2px 17px 0px 17px;
     }
 
+    .body-contacts__title-desktop {
+        display: none;
+    }
+
     .body-contacts__title h2 {
         font-family: 'Codystar';
         font-style: normal;
@@ -773,7 +777,7 @@ body {
                                                     /* section SCHEDULE */
 
     .body-schedule-section {
-        margin-bottom: 30px;
+        margin-bottom: 100px;
     }
 
     .body-schedule {
@@ -808,10 +812,6 @@ body {
         left: 240px;
         transform: rotate(-90deg);
     }
-
-
-
-
 
     .body-schedule__schedule-wrapper {
         width: 747px;
@@ -864,6 +864,97 @@ body {
         margin-top: 60px;
     }
 
+                                            /* section CONTACTS */
+    .body-contacts {
+        width: 1400px;
+        padding: 0;
+        position: relative;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .body-contacts__title-desktop h2 {
+        font-family: 'Codystar';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 70px;
+        letter-spacing: -0.01em;
+        color: #00FF85;
+        position: absolute;
+        width: 316px;
+        height: 70px;
+        top: 130px;
+        left: 30px;
+        transform: rotate(-90deg);
+        margin-bottom: 25px;
+    }
+
+    .body-contacts__title h2 {
+        display: none;
+    }
+
+    .body-contacts__title {
+        margin: 0px auto 35px auto;
+        width: 850px;
+    }
+
+    .body-contacts__title p {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: -0.01em;
+        color: #FFFFFF;
+    }
 
 
+
+
+    .body-contacts__form form {
+        width: 762px;
+        margin: 0px 0px 0px 275px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    
+    .body-contacts__form label {
+        color: #ffffff;
+        display: block;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+        color: #FFFFFF;
+        margin-bottom: 6px;
+    }
+
+    .body-contacts__form-input,
+    .body-contacts__form-txtarea {
+        width: 100%;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: -0.01em;
+        color: #646464;
+        opacity: 1;
+        background-color: #303030;
+        border: none;
+        padding: 7.5px 0px 5.5px 9.75px;
+    }
+
+    .body-contacts__form-submit {
+        width: 140px;
+        height: 44px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #343434;
+    }
 }
