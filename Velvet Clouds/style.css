@@ -268,8 +268,12 @@ body {
 
     .body-schedule {
         width: 352px;
-        height: 1035px;
+        /* height: 1035px; */
         margin: 15px 19px 0px 19px;
+    }
+
+    .body-schedule__arrow-desktop {
+        display: none;
     }
 
     .body-schedule__title {
@@ -319,6 +323,10 @@ body {
         font-style: normal;
         font-weight: 700;
         font-size: 15px;
+    }
+
+    .body-schedule__band-desktop {
+        display: none;
     }
 
                                         /* section CONTACTS */
@@ -703,7 +711,7 @@ body {
 
     .body-info {
         width: 1400px;
-        height: 656px;
+        height: 500px;
         margin: 0 auto 60px auto;
         position: relative;
     }
@@ -711,6 +719,8 @@ body {
     .body-info__title {
         margin: 0;
         position: absolute;
+        top: 55px;
+        left: 122px;
     }
 
     .body-info__title p {
@@ -722,11 +732,9 @@ body {
         letter-spacing: -0.01em;
         /* text-align: right; */
         color: #00FF85;
-        position: absolute;
         width: 154px;
         height: 70px;
-        top: 247.38px;
-        left: 122px;
+
         transform: rotate(-90deg);
     }
 
@@ -762,4 +770,100 @@ body {
     .body-info__content-2 p:first-of-type {
         margin-bottom: 30px;
     }
+                                                    /* section SCHEDULE */
+
+    .body-schedule-section {
+        margin-bottom: 30px;
+    }
+
+    .body-schedule {
+        position: relative;
+        width: 1400px;
+        /* height: 1035px; */
+    }
+
+    .body-schedule__arrow {
+        display: none;
+    }
+
+    .body-schedule__arrow-desktop {
+        /* cause of collision with reset css? */
+        max-width: none;
+        margin-bottom: 90px;
+    }
+
+    .body-schedule__title {
+        margin: 0;
+        width: 345px;
+        height: 70px;
+        font-family: 'Codystar';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 70px;
+        letter-spacing: -0.01em;
+        color: #00FF85;
+        position: absolute;
+        top: 130px;
+        left: 240px;
+        transform: rotate(-90deg);
+    }
+
+
+
+
+
+    .body-schedule__schedule-wrapper {
+        width: 747px;
+        border-top: 1px dashed #ffffff;
+        margin: 0px 0px 0px 492px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+
+    .body-schedule__schedule-wrapper:last-of-type {
+        border-bottom: 1px dashed #ffffff;
+    }
+
+    .body-schedule__schedule-wrapper__title {
+        width: 537.21px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 59px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .body-schedule__schedule-wrapper__title-date {
+        font-weight: 700;
+    }
+
+    .body-schedule__schedule-wrapper__btn {
+        width: 120px;
+        height: 38px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 48px;
+    }
+
+    .body-schedule__band {
+        display: none;
+    }
+
+    .body-schedule__band-desktop {
+        margin-top: 60px;
+    }
+
+
+
 }
