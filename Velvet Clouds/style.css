@@ -1,3 +1,5 @@
+                                                  /* Global CSS */
+
 body {
     background-color: #272727;
     font-family: 'DM Sans', sans-serif;
@@ -16,14 +18,14 @@ body {
     width: 100%;
 }
 
-
-
-                                            /* media min-width 390px */
+                                                  /* MOBILE VERSION */
 @media screen and (max-width: 390px) {
+                                                 /* MAIN MOBILE FRAME */
     .body__global-frame {
         width: 390px;
     }
 
+                                                     /* HEADER */
     .header {
         position: relative;
         margin: 0;
@@ -45,7 +47,7 @@ body {
         display: none;
     }
 
-                                                /* body HERO */
+                                                /* HERO section */
     .body {
         margin-bottom: 109px;
         position: relative;
@@ -491,13 +493,14 @@ body {
     }
 }
 
+                                                  /* DESKTOP VERSION */
 @media screen and (min-width: 1400px) {
-
+                                                /* MAIN DESKTOP FRAME */
     .body__global-frame {
         width: 1400px;
         margin: 0 auto;
     }
-
+                                                     /* HEADER */
     .header {
         position: relative;
         margin-left: 55px;
@@ -547,7 +550,7 @@ body {
         gap: 1rem
 
     }
-
+                                                     /* HERO section */
     .body-hero {
         position: relative;
         width: 1440px;
@@ -916,9 +919,6 @@ body {
         color: #FFFFFF;
     }
 
-
-
-
     .body-contacts__form form {
         width: 762px;
         margin: 0px 0px 0px 275px;
@@ -1054,7 +1054,7 @@ body {
         text-align: center;
         letter-spacing: -0.01em;
         color: #FFFFFF;
-    };
+    }
 
     .footer__copyright-span {
         font-weight: 700;
